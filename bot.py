@@ -15,9 +15,9 @@ def run_flask():
     app.run(host="0.0.0.0", port=8080)
 
 # --- API KEYS ---
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
-SHODAN_API_KEY = os.environ.get("SHODAN_API_KEY")
-INTELX_API_KEY = os.environ.get("INTELX_API_KEY")
+BOT_TOKEN = os.environ.get("8173476361:AAFK7a0A_hw9lnYLWU4qrCYVkK5PiQgsGHE")
+SHODAN_API_KEY = os.environ.get("7L1aiYw3vR65CdGfpgiy7bU3BDvJSqsW")
+INTELX_API_KEY = os.environ.get("40a346fb-bb26-4780-a80f-0e669f37c331")
 
 # --- COMMANDS ---
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -105,3 +105,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
